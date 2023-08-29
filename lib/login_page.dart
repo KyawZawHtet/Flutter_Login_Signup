@@ -145,7 +145,7 @@ class _LoginPageState extends State<LoginPage> {
             ),
             Image.asset(
               'assets/walking-dog.png',
-              width: 200,
+              width: 300,
             ),
           ],
         ),

@@ -39,12 +39,12 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               Positioned(
-                top: 380,
+                top: 450,
                 child: Container(
-                  margin: const EdgeInsets.only(left: 70),
+                  margin: const EdgeInsets.only(left: 50),
                   child: Image.asset(
                     'assets/dog.png',
-                    width: 200,
+                    width: 300,
                   ),
                 ),
               ),
@@ -61,7 +61,7 @@ class _HomePageState extends State<HomePage> {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Container(
-                      width: mSize.width - 200,
+                      width: mSize.width - 250,
                       height: 60,
                       decoration: BoxDecoration(
                         color: const Color(0XFF9b6afe),
@@ -91,7 +91,7 @@ class _HomePageState extends State<HomePage> {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Container(
-                      width: mSize.width - 200,
+                      width: mSize.width - 250,
                       height: 60,
                       decoration: BoxDecoration(
                         color: Colors.white,
